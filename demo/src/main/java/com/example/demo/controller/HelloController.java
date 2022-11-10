@@ -1,9 +1,10 @@
 package com.example.demo.controller;
 
-import org.springframework.stereotype.Controller;
 
-@Controller
-public class HelloController{
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+public class HelloController {
 
     @RequestMapping("/hello")
     public String method1() {
